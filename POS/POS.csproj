@@ -59,7 +59,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <SignManifests>true</SignManifests>
+    <SignManifests>false</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
     <ManifestCertificateThumbprint>FD0B125CB8DF543A5DEB3CCF6775AAD7D520B5C1</ManifestCertificateThumbprint>
