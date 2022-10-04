@@ -24,8 +24,8 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>true</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <InstallUrl>https://raw.githubusercontent.com/Hasiet/Point-Of-Sale/master/published/</InstallUrl>
-    <UpdateUrl>https://raw.githubusercontent.com/Hasiet/Point-Of-Sale/master/published/</UpdateUrl>
+    <InstallUrl>https://hasiet.github.io/Point-Of-Sale/published/</InstallUrl>
+    <UpdateUrl>https://hasiet.github.io/Point-Of-Sale/published/</UpdateUrl>
     <TargetCulture>en-US</TargetCulture>
     <ProductName>Point Of Sale</ProductName>
     <PublisherName>Kassiyet Bolat</PublisherName>
@@ -33,7 +33,7 @@
     <MinimumRequiredVersion>1.0.0.0</MinimumRequiredVersion>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>publish.htm</WebPage>
-    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationRevision>4</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>

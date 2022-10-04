@@ -100,6 +100,8 @@ namespace POS
         private void Form1_Load(object sender, EventArgs e)
         {
             ShowData();
+            string version = System.Windows.Forms.Application.ProductVersion;
+            label1.Text = String.Format("Version:" + version);
 
         }
     }
