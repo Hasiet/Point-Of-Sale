@@ -101,7 +101,7 @@ namespace POS
         {
             ShowData();
             string version = System.Windows.Forms.Application.ProductVersion;
-            label1.Text = String.Format("Version:" + version);
+            label1.Text = "Version: 1.0.0.2";
 
         }
     }
