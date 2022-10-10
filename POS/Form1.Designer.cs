@@ -134,9 +134,9 @@
             this.label1.ForeColor = System.Drawing.SystemColors.AppWorkspace;
             this.label1.Location = new System.Drawing.Point(13, 427);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(91, 13);
+            this.label1.Size = new System.Drawing.Size(119, 13);
             this.label1.TabIndex = 10;
-            this.label1.Text = "version: ___";
+            this.label1.Text = "Version: 1.0.0.4";
             // 
             // Form1
             // 

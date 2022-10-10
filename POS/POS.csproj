@@ -33,7 +33,7 @@
     <MinimumRequiredVersion>1.0.0.0</MinimumRequiredVersion>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>publish.htm</WebPage>
-    <ApplicationRevision>4</ApplicationRevision>
+    <ApplicationRevision>5</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -143,14 +143,9 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
-    <BootstrapperPackage Include="Microsoft.SqlServer.SqlLocalDB.11.1">
+    <BootstrapperPackage Include="Microsoft.SqlServer.SqlLocalDB.14.0">
       <Visible>False</Visible>
-      <ProductName>SQL Server 2012 Express LocalDB</ProductName>
-      <Install>true</Install>
-    </BootstrapperPackage>
-    <BootstrapperPackage Include="Microsoft.SqlServer.SqlLocalDB.15.0">
-      <Visible>False</Visible>
-      <ProductName>SQL Server 2019 Express LocalDB</ProductName>
+      <ProductName>SQL Server 2017 Express LocalDB</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
   </ItemGroup>
