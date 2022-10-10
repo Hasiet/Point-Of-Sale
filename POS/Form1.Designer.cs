@@ -39,7 +39,6 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Save
@@ -135,25 +134,15 @@
             this.label1.ForeColor = System.Drawing.SystemColors.AppWorkspace;
             this.label1.Location = new System.Drawing.Point(13, 427);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(105, 13);
+            this.label1.Size = new System.Drawing.Size(91, 13);
             this.label1.TabIndex = 10;
-            this.label1.Text = "version: 1.0.0";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(408, 9);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(83, 16);
-            this.label2.TabIndex = 11;
-            this.label2.Text = "New Version";
+            this.label1.Text = "version: ___";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(982, 453);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
@@ -184,7 +173,6 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
     }
 }
 
