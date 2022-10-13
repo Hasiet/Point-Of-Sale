@@ -15,6 +15,8 @@ namespace POS
 {
     
     public partial class Form1 : Form
+    //Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\POS\POS\PosDB.mdf;Integrated Security=True
+    //Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\PosDB.mdf;Integrated Security=True
     {
         SqlConnection PosDBcn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\PosDB.mdf;Integrated Security=True");
         SqlDataAdapter DataAdapter;
